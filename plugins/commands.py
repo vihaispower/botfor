@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/tvzonelk')
+                InlineKeyboardButton('📱request group', url='https://t.me/joinchat/Q1uroGQ645U1OTg1')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url="https://t.me/tvzonesupport"),
+                InlineKeyboardButton('📱notify channel', url="https://t.me/rule_breakers_main"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,9 +42,9 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/tvzonelk')
+            InlineKeyboardButton('📱request group', url='https://t.me/joinchat/Q1uroGQ645U1OTg1')
             ],[
-            InlineKeyboardButton('ℹ️ Help', url="https://t.me/tvzonesupport"),
+            InlineKeyboardButton('📱notify channel', url="https://t.me/rule_breakers_main"),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
