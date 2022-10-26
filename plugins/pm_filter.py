@@ -557,6 +557,11 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text=f"🗓 1/{math.ceil(int(total_results) / 10)}", callback_data="pages"),
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
+        btn.append(
+
+            [InlineKeyboardButton(text=f"🤖My Father",url="https://t.me/viha_is_power_bot"), InlineKeyboardButton(text="🔗Share Our Group",url=f"https://t.me/share/url?url=https://t.me/joinchat/Q1uroGQ645U1OTg1&text=සුපිරි%20Movie%20Group%20එකක්_තියනව.%20Film%20එකේ%20නම%20දැම්ම%20ගමන්%20Film%20එක%20දෙන්නව.%20ඔන්න%20Link%20එක.%20ඉක්මනට%20Join%20වෙන්න")]
+
+        )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
