@@ -1,8 +1,8 @@
 class script(object):
     START_TXT = """Hello {},
-My Name Is <a href=https://t.me/{}>TV Zone</a> Bot, I Can Provide Movies & TV Series With Sinhala Subtitles, More Info Available On Description 🤩
+My Name Is <a href=https://t.me/{}>rule breakers virtual assistant</a> Bot, I Can Provide Movies & TV Series & Sinhala Subtitles, More Info Available On Description 🤩
 
-Powered By @nadithpro"""
+Powered By @viha_is_power_bot"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
